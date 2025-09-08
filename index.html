@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurante Sabor da terra</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor da Terra</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <h1>Restaurante Sabor da terra</h1>
-    <p>A essencia do seu campo, no seu prato!</p>
-  </header>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo Sabor da Terra">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="menu">
-    <h2>Cardápio</h2>
-    <ul>
-      <li>Costela de Boi Assada - R$ 49,90</li>
-      <li>Galinha Caipira - R$ 39,90</li>
-      <li>Feijão Tropeiro - R$ 34,90</li>
-      <li>Peixe na Brasa - R$ 42,90</li>
-    </ul>
-  </section>
+    <section id="hero">
+        <h1>Sabor da Terra</h1>
+        <p>A essência do campo, no seu prato</p>
+    </section>
 
-  <section id="localizacao">
-    <h2>Localização</h2>
-    <p>Rodovia dos Bandeirantes, km 137, Fazenda Boa Vista</p>
-  </section>
+    <section id="menu">
+        <h2>Nosso Menu</h2>
+        <div class="prato">
+            <img src="imagens/prato1.jpg" alt="Costela de Boi Assada">
+            <h3>Costela de Boi Assada</h3>
+            <p>Costela suculenta assada lentamente, acompanhada de arroz carreteiro e farofa de milho.</p>
+            <p>R$ 49,90</p>
+        </div>
+        <div class="prato">
+            <img src="imagens/prato2.jpg" alt="Galinhada Caipira">
+            <h3>Galinhada Caipira</h3>
+            <p>Arroz cozido com pedaços de frango caipira, cenoura e pimentão.</p>
+            <p>R$ 39,90</p>
+        </div>
+    </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Telefone: (11) 99999-9999</p>
-    <p>Email: contato@sabordaterrarestaurante.com.br</p>
-  </section>
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <p>Rodovia dos Bandeirantes, km 137, Fazenda Boa Vista, Estrada da Roça, Zona Rural de Indaiatuba - SP</p>
+        <a href="https://goo.gl/maps/f1dkJ7GqDhT2" target="_blank" class="btn">Veja no Mapa</a>
+    </section>
 
-  <footer>
-    <p>© 2025 Restaurante Sabor da Terra/p>
-  </footer>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:contato@sabordaterrarestaurante.com.br">contato@sabordaterrarestaurante.com.br</a></p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sabor da Terra - Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
