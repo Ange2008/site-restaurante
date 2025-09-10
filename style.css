@@ -79,7 +79,6 @@ section li p {
   color: #666;
 }
 
-/* Imagens do cardápio */
 #menu li img {
   width: 120px;
   height: 120px;
@@ -87,13 +86,11 @@ section li p {
   margin-right: 15px;
 }
 
-/* Hover para os itens do cardápio */
 section li:hover {
   background-color: #f4f4f4;
   transition: background-color 0.3s ease;
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   color: #777;
