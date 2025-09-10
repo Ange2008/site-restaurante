@@ -1,99 +1,113 @@
-/* Estilo Geral */
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global do body */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #2c3e50;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9f0;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #27ae60;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #d35400;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    margin: 0;
-    font-size: 40px;
-    font-family: 'Georgia', serif;
+  font-size: 48px;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
 }
 
 header p {
-    margin-top: 5px;
-    font-size: 18px;
+  font-size: 22px;
+  font-weight: 300;
 }
 
-/* Menu */
-#menu {
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
+/* Estilos das seções */
+section {
+  margin: 30px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 5px solid #e67e22;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#menu h2 {
-    font-size: 30px;
-    color: #27ae60;
+section h2 {
+  margin-bottom: 10px;
+  color: #d35400;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.menu-item {
-    display: inline-block;
-    width: 45%;
-    margin: 10px;
-    background-color: #ecf0f1;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+section ul {
+  list-style: none;
+  padding: 0;
 }
 
-.menu-item img {
-    width: 100%;
-    border-radius: 10px;
+section li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
 }
 
-.menu-description h3 {
-    margin: 10px 0;
-    font-size: 22px;
-    color: #27ae60;
+section li:last-child {
+  border-bottom: none;
 }
 
-.menu-description p {
-    font-size: 16px;
-    color: #34495e;
+section li span.dish-name {
+  font-weight: bold;
+  color: #e67e22;
+  font-size: 18px;
 }
 
-.price {
-    font-size: 18px;
-    color: #e74c3c;
-    font-weight: bold;
+section li p {
+  font-size: 16px;
+  color: #666;
 }
 
-/* Contato */
-#contato {
-    padding: 20px;
-    text-align: center;
-    background-color: #fff;
-    border-top: 2px solid #ecf0f1;
+/* Imagens do cardápio */
+#menu li img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  margin-right: 15px;
 }
 
-#contato h2 {
-    font-size: 28px;
-    color: #27ae60;
-}
-
-#contato p {
-    font-size: 16px;
-    color: #34495e;
+/* Hover para os itens do cardápio */
+section li:hover {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s ease;
 }
 
 /* Rodapé */
 footer {
-    background-color: #27ae60;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
+  text-align: center;
+  color: #777;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+/* Link de email com efeito */
+a {
+  color: #d35400;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e67e22;
 }
