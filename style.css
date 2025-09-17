@@ -1,11 +1,9 @@
-/* Reset de margens e paddings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo global do body */
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff9f0;
@@ -15,7 +13,6 @@ body {
   font-size: 16px;
 }
 
-/* Cabeçalho */
 header {
   background-color: #d35400;
   color: white;
@@ -36,7 +33,6 @@ header p {
   font-weight: 300;
 }
 
-/* Estilos das seções */
 section {
   margin: 30px 0;
   background-color: #fff;
@@ -98,7 +94,6 @@ footer {
   font-size: 14px;
 }
 
-/* Link de email com efeito */
 a {
   color: #d35400;
   text-decoration: none;
