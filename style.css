@@ -103,3 +103,7 @@ a:hover {
   text-decoration: underline;
   color: #e67e22;
 }
+
+.container{
+  display: flex;
+}
